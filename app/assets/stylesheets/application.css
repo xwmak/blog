@@ -37,6 +37,16 @@
     color: red;
 }
 
-.categories td:nth-child(2) {
-    margin-right: 25%;
+.categories td:nth-child(1), td:nth-child(2) {
+    width: 25%;
+}
+
+th {
+    text-align: left;
+}
+
+
+td {
+    padding: 40px;
+    text-align: left;
 }
